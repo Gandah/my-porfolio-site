@@ -20,9 +20,9 @@ My porfolio website.
 
 #### Desktop
 
-![Desktop](./screenshots/S_1.png)
-![Desktop](./screenshots/S_2.png)
-![Desktop](./screenshots/S_3.png)
+![Desktop](./react_frontend/screenshots/S_1.png)
+![Desktop](./react_frontend/screenshots/S_2.png)
+![Desktop](./react_frontend/screenshots/S_3.png)
 
 
 
