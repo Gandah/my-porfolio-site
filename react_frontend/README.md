@@ -29,8 +29,8 @@ My porfolio website.
 ### Links
 
 - GitHub Repo: [View Repo](https://github.com/Gandah/my-porfolio-site.git)
-- Live Site URL: [Visit Site](https://localhost.com/)
-- CMS : [Sanity Studio](https://localhost.com/)
+- Live Site URL: [Visit Site](https://gandah-porfolio.vercel.app/)
+- CMS : [Sanity Studio](https://gandah-portfolio.sanity.studio/)
 
 ### Built with
 
