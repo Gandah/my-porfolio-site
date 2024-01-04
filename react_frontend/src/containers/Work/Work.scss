@@ -132,9 +132,16 @@
     width: 100%;
     position: relative;
     flex-direction: column;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    
+    
+    
+    &:p{
+      text-align: left;
+      width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
   
     h4 {
       margin-top: 1rem;

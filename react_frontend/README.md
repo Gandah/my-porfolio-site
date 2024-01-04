@@ -24,8 +24,6 @@ My porfolio website.
 ![Desktop](./screenshots/S_2.png)
 ![Desktop](./screenshots/S_3.png)
 
-
-
 ### Links
 
 - GitHub Repo: [View Repo](https://github.com/Gandah/my-porfolio-site.git)

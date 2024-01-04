@@ -33,6 +33,7 @@ const Work = () => {
 const handleWorkFilter = (item) => {
   setActiveFilter(item);
   setAnimateCard([{ y: 100, opacity: 0 }]);
+  // setAnimateCard(preValues => [{...preValues, y: 100, opacity: 0}]);
   
   // You can directly set the filter work here
   if (item === 'All') {
@@ -90,7 +91,7 @@ useEffect(() => {
                   <motion.div
                     whileInView={{ scale: [0, 1] }}
                     whileHover={{ scale: [1, 0.90] }}
-                    transition={{ duration: 0.25 }}
+                    transition={{ duration: 0.25, ease: 'easeInOut' }}
                     className="app__flex"
                   >
                     <AiFillEye />
@@ -100,7 +101,7 @@ useEffect(() => {
                   <motion.div
                     whileInView={{ scale: [0, 1] }}
                     whileHover={{ scale: [1, 0.90] }}
-                    transition={{ duration: 0.25 }}
+                    transition={{ duration: 0.25, ease: 'easeInOut' }}
                     className="app__flex"
                   >
                     <AiFillGithub />
